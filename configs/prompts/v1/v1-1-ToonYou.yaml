@@ -1,0 +1,9 @@
+- inference_config: "configs/inference/inference-v2.yaml"
+  motion_module: "models/Motion_Module/mm_sd_v15_v2.ckpt"
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV20_v20.safetensors"
+  lora_model_path: ""
+
+  seed : [171307201269435267]
+  steps:          25
+  guidance_scale: 7.5
