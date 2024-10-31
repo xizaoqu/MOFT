@@ -20,6 +20,31 @@
 </p>
 
 
+## Installation
+
+Install the environments by
+
+```
+conda create moft python==3.8
+conda activate moft
+pip install -r requirements.txt
+```
+
+Downloads checkpoints from [Animatediff](https://github.com/guoyww/AnimateDiff), [LoRA](https://huggingface.co/ckpt/realistic-vision-v20/blob/main/realisticVisionV20_v20.safetensors), and [SD-1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5).
+Put them into the following structures:
+```
+models/
+├── DreamBooth_LoRA
+│   ├── realisticVisionV20_v20.safetensors
+├── Motion_Module
+│   ├── mm_sd_v15_v2.ckpt
+├── StableDiffusion
+```
+
+
+Run process.ipynb
+
+
 ## 🔗 Citation
 
 If you find our work helpful, please cite:
