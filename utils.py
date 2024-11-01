@@ -29,7 +29,7 @@ import torchvision
 def load_pipeline():
     config = "configs/prompts/v1/v1-1-ToonYou.yaml"
     inference_config = "configs/inference/inference-v1.yaml"
-    pretrained_model_path = "models/StableDiffusion"
+    pretrained_model_path = "ckpt/v1-5"
 
     model_config = OmegaConf.load(config)[0]
     motion_module = model_config.motion_module
