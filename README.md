@@ -38,7 +38,7 @@ models/
 │   ├── realisticVisionV20_v20.safetensors
 ├── Motion_Module
 │   ├── mm_sd_v15_v2.ckpt
-├── StableDiffusion
+├── stable-diffusion-v1-5
 ```
 
 

@@ -69,7 +69,6 @@ def get_tensor_from_video(video_path):
             frames_list.append(frame)
     cap.release()
 
-
     # 转换成tensor
     result_frames = torch.as_tensor(np.stack(frames_list))
 

@@ -714,7 +714,7 @@ def convert_ldm_bert_checkpoint(checkpoint, config):
 
 
 def convert_ldm_clip_checkpoint(checkpoint):
-    text_model = CLIPTextModel.from_pretrained("ckpt/clip-vit-large-patch14")
+    text_model = CLIPTextModel.from_pretrained("openai/clip-vit-large-patch14")
     keys = list(checkpoint.keys())
 
     text_model_dict = {}
@@ -880,7 +880,7 @@ def stable_unclip_image_encoder(original_config):
 
         if clip_model_name == "ViT-L/14":
             feature_extractor = CLIPImageProcessor()
-            image_encoder = CLIPVisionModelWithProjection.from_pretrained("ckpt/clip-vit-large-patch14")
+            image_encoder = CLIPVisionModelWithProjection.from_pretrained("openai/clip-vit-large-patch14")
         else:
             raise NotImplementedError(f"Unknown CLIP checkpoint name in stable diffusion checkpoint {clip_model_name}")
 
