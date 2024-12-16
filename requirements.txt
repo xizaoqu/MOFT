@@ -12,3 +12,4 @@ safetensors
 einops
 wandb
 huggingface-hub==0.17.3
+opencv-python
