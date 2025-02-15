@@ -50,10 +50,12 @@ Run process.ipynb
 If you find our work helpful, please cite:
 
 ```bibtex
-@article{xiao2024video,
-  title={Video Diffusion Models are Training-free Motion Interpreter and Controller},
-  author={Xiao, Zeqi and Zhou, Yifan and Yang, Shuai and Pan, Xingang},
-  journal={arXiv preprint arXiv:2405.14864},
-  year={2024}
+@inproceedings{
+xiao2024video,
+title={Video Diffusion Models are Training-free Motion Interpreter and Controller},
+author={Zeqi Xiao and Yifan Zhou and Shuai Yang and Xingang Pan},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=ZvQ4Bn75kN}
 }
 ```
