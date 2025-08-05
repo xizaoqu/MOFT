@@ -25,7 +25,7 @@
 Install the environments by
 
 ```
-conda create moft python==3.8
+conda create -n moft python==3.8
 conda activate moft
 pip install -r requirements.txt
 ```
